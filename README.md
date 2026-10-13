@@ -2,6 +2,22 @@
 
 ArNiWorks is a responsive freelance marketplace built with Next.js App Router, TypeScript, Tailwind CSS, and Supabase. Public showcase cards are explicitly labeled demo content; accounts, projects, proposals, messages, and reviews require a configured Supabase project.
 
+## Brand and screenshots
+
+The custom AN-inspired logo is in [`public/brand/arniworks-logo.svg`](./public/brand/arniworks-logo.svg). Screenshots below show the public demo marketplace; profile cards and sample listings are demo content.
+
+### Homepage
+
+![ArNiWorks homepage](./screenshots/homepage.png)
+
+### Find projects
+
+![ArNiWorks project listings](./screenshots/projects.png)
+
+### Sign in
+
+![ArNiWorks sign-in page](./screenshots/login.png)
+
 ## Local setup
 
 1. Install Node.js 20.9 or later.

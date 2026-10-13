@@ -1,12 +1,18 @@
+import Image from "next/image";
 import Link from "next/link";
 import { isSupabaseConfigured } from "@/lib/supabase";
 import { createServerClient } from "@/lib/supabase/server";
 
 function LogoMark() {
   return (
-    <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#1769E0] text-sm font-black tracking-tight text-white shadow-sm">
-      AN
-    </span>
+    <Image
+      src="/brand/arniworks-logo.svg"
+      alt=""
+      aria-hidden="true"
+      width={40}
+      height={40}
+      className="h-10 w-10 rounded-xl shadow-sm"
+    />
   );
 }
 
